@@ -1,6 +1,6 @@
 
 # Encrypt these specific files
-demo.txt filter=user1 diff=user1
+demo.txt filter=git-crypt diff=git-crypt
 demo2.txt filter=git-crypt diff=git-crypt
 *.js filter=git-crypt diff=git-crypt
 
