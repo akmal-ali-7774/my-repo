@@ -2,7 +2,7 @@
 # Encrypt these specific files
 demo.txt filter=git-crypt diff=git-crypt
 demo2.txt filter=user1 diff=user1
-*.js filter=git-crypt diff=git-crypt
+*.js filter=user1 diff=user1
 
 # Ensure the gitattributes file and git-crypt internals are NOT filtered
 .gitattributes !filter !diff
